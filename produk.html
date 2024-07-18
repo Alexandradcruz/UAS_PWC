@@ -12,48 +12,55 @@
         }
 
         header {
-            background-color: #4e89ae; /* Warna biru tua */
+            background-color: #4e89ae; 
             padding: 20px;
             text-align: center;
         }
 
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-        }
+      nav ul 
+	  {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Center align the list items */
+}
 
-        nav ul li {
-            display: inline;
-            margin-right: 20px;
-        }
+nav ul li {
+    display: inline-block; /* Use inline-block to avoid wrapping issues */
+    margin-right: 10px; /* Adjust margin as needed */
+}
 
-        nav ul li a {
-            text-decoration: none;
-            background-color: #f2f2f2; /* Abu-abu muda */
-            color: #4e89ae; /* Warna biru tua */
-            font-weight: bold;
-            padding: 10px 20px; /* Tambahkan ruang di sekitar teks */
-            border-radius: 5px; /* Bentuk sudut tombol */
-            transition: background-color 0.3s; /* Animasi perubahan warna saat disorot */
-        }
+nav ul li:last-child {
+    margin-right: 0; /* Remove margin from the last item */
+}
 
-        nav ul li a:hover {
-            background-color: #4e89ae; /* Warna biru tua */
-            color: #fff; /* Putih */
-        }
+nav ul li a {
+    text-decoration: none;
+    background-color: #f2f2f2;
+    color: #4e89ae;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #4e89ae;
+    color: #fff;
+}
+
 
         .hero {
-            color: #333; /* Warna abu-abu tua */
+            color: #333; 
             text-align: center;
             padding: 100px 0;
-            background-color: rgba(255, 255, 255, 0.8); /* Latar belakang putih transparan */
+            background-color: rgba(255, 255, 255, 0.8); 
         }
 
         .hero h1 {
             font-size: 36px;
             margin-bottom: 20px;
             margin-top: 0;
-            color: #4e89ae; /* Warna biru tua */
+            color: #4e89ae; 
         }
 
         .hero p {
@@ -68,8 +75,8 @@
 
         .products {
             display: flex;
-            flex-wrap: wrap; /* Produk akan baris baru jika lebarnya tidak cukup */
-            justify-content: center; /* Produk akan ditengahkan */
+            flex-wrap: wrap; 
+            justify-content: center;
         }
 
         .product-info {
@@ -77,12 +84,12 @@
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            margin: 10px; /* Tambahkan ruang di antara produk */
-            background-color: #fff; /* Warna putih */
+            margin: 10px; 
+            background-color: #fff; 
         }
 
         .product-info img {
-            width: 100%; /* Gambar akan mengisi lebar parent */
+            width: 100%; 
             border-radius: 10px;
             margin-bottom: 10px;
         }
@@ -91,7 +98,7 @@
             width: 100%;
             border-collapse: collapse;
             margin-top: 20px;
-            background-color: #f2f2f2; /* Abu-abu muda */
+            background-color: #f2f2f2; 
         }
 
         table th, table td {
@@ -101,14 +108,14 @@
         }
 
         table th {
-            background-color: #4e89ae; /* Warna biru tua */
-            color: #fff; /* Putih */
+            background-color: #4e89ae; 
+            color: #fff; 
         }
 
         ul, ol {
             text-align: left;
             margin-left: 20px;
-            background-color: #f2f2f2; /* Abu-abu muda */
+            background-color: #f2f2f2; 
             padding: 10px;
             border-radius: 5px;
         }
@@ -117,7 +124,7 @@
             text-align: left;
             margin-top: 20px;
             padding: 20px;
-            background-color: #f2f2f2; /* Abu-abu muda */
+            background-color: #f2f2f2; 
             border-radius: 10px;
         }
 
@@ -138,22 +145,22 @@
         }
 
         form input[type="submit"] {
-            background-color: #4e89ae; /* Warna biru tua */
-            color: #fff; /* Putih */
+            background-color: #4e89ae; 
+            color: #fff; 
             border: none;
             padding: 10px 20px;
             border-radius: 5px;
             cursor: pointer;
-            transition: background-color 0.3s; /* Animasi perubahan warna saat disorot */
+            transition: background-color 0.3s; 
         }
 
         form input[type="submit"]:hover {
-            background-color: #357dab; /* Warna biru lebih tua */
+            background-color: #357dab; 
         }
 
         footer {
-            background-color: #4e89ae; /* Warna biru tua */
-            color: #fff; /* Putih */
+            background-color: #4e89ae; 
+            color: #fff; 
             text-align: center;
             padding: 20px 0;
             position: fixed;
@@ -177,7 +184,7 @@
         .logo h2 {
             margin: 0;
             font-size: 24px;
-            color: #333; /* Warna abu-abu tua */
+            color: #333; 
         }
     </style>
 </head>
